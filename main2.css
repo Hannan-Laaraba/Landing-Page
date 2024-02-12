@@ -1,0 +1,134 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+.bg{
+    background-image: url(assets/pic5.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100vh;
+    width: 100vw;
+    padding: 30px;
+    background-position: center;
+    background-blend-mode: luminosity;
+}
+
+.btn {
+    background: #3498db;
+    background-image: -webkit-linear-gradient(top, #3498db, #2980b9);
+    background-image: -moz-linear-gradient(top, #3498db, #2980b9);
+    background-image: -ms-linear-gradient(top, #3498db, #2980b9);
+    background-image: -o-linear-gradient(top, #3498db, #2980b9);
+    background-image: linear-gradient(to bottom, #3498db, #2980b9);
+    -webkit-border-radius: 22;
+    -moz-border-radius: 22;
+    border-radius: 22px;
+    text-shadow: 1px 1px 3px #d4cb24;
+    -webkit-box-shadow: 3px 3px 6px #590c59;
+    -moz-box-shadow: 3px 3px 6px #590c59;
+    box-shadow: 3px 3px 6px #590c59;
+    font-family: Courier New;
+    color: #f7eff4;
+    font-size: 20px;
+    padding: 10px 20px 10px 20px;
+    text-decoration: none; 
+    position: absolute;
+    top: 10;
+    right: 0;
+
+  }
+  
+  .btn:hover {
+    background: #3cb0fd;
+    background-image: -webkit-linear-gradient(top, #3cb0fd, #3498db);
+    background-image: -moz-linear-gradient(top, #3cb0fd, #3498db);
+    background-image: -ms-linear-gradient(top, #3cb0fd, #3498db);
+    background-image: -o-linear-gradient(top, #3cb0fd, #3498db);
+    background-image: linear-gradient(to bottom, #3cb0fd, #3498db);
+    text-decoration: none;
+  }
+
+ul{
+    display: flex;
+    justify-content: center;
+
+}
+
+li{
+    padding: 8px;
+    list-style-type: none;
+}
+
+a{
+    text-decoration: none;
+    color: rgb(238, 238, 174);
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 25px;
+    font-weight: bold;
+    padding-right: 20px;
+}
+
+.top-items{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 10px;
+    padding: 5px;
+}
+
+#icon{
+    font-family: 'Courier New', Courier, monospace;
+    font-style: oblique;
+    color: rgb(173, 173, 11);
+    font-size: x-large;
+}
+
+.header-text{
+    text-align: center;
+    color: blueviolet;
+    padding: 120px 0 30px 0;
+    width: 50%;
+    margin: auto;
+    font-size: x-large;
+    font-family: 'Courier New', Courier, monospace;
+    font-style: inherit;
+    font-weight: bold;
+    text-decoration: solid;
+
+}
+
+.span{
+    font-family: cursive'Courier New', Courier, monospace;
+    color: rgb(189, 189, 18);
+    font-size: 34px;
+    font-weight: bold;
+    font-style: normal;
+    
+}
+
+h3{
+    text-align: center;
+    margin-bottom: 5%;
+    font-family: cursive, Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.about-section{
+    padding-top: 120px;
+    padding-bottom: 120px;
+}
+
+.about-text{
+    min-height: 1px;
+    padding-right: 15px;
+    width: 50%;
+    margin: auto;
+    line-height: 22px;
+}
+
+a:hover{
+    padding: 2px 0;
+    border-bottom: 2px solid blue;
+}
