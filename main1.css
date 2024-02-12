@@ -97,23 +97,24 @@ a{
 .header-text{
     text-align: center;
     color: #b321b3;
-    padding: 120px 0 30px 0;
-    width: 40%;
+    padding: 90px 0 20px 0;
+    width: 60%;
     margin: auto;
-    font-size: x-large;
-    font-family: cursive,'Courier New', Courier, monospace;
-    font-weight: light;
-    text-shadow: 1px 0px 5px yellow, 0px -5px 5px;
-    /* font-size: 3rem; */
+    font-size: xx-large;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bold;
+    /* text-shadow: 1px 0px 5px yellow, 0px -5px 5px; */
+    /* font-size: 1rem; */
 
 }
 
 .span{
-    font-family: cursive, 'Courier New', Courier, monospace;
-    color: rgb(109, 5, 100);
-    font-size: 25px;
+    font-family: 'Courier New', Courier, monospace;
+    color: rgb(178, 223, 90);
+    font-size: xx-large;
     font-weight: light;
     font-style: italic;
+    /* width: 60%; */
     
 }
 
@@ -121,6 +122,7 @@ h3{
     text-align: center;
     margin-bottom: 5%;
     font-family: cursive, Verdana, Geneva, Tahoma, sans-serif;
+    
 }
 
 .about-section{
@@ -142,3 +144,59 @@ a:hover{
     padding: 2px 0;
     border-bottom: 2px solid blue;
 }
+
+.new-item{
+    display: flex;
+    align-items: center;
+    width: 100%;
+    background-color: #05578d;
+    margin: auto
+}
+
+.new-item-text{
+    padding: 50px;
+    color: aliceblue;
+}
+
+.text{ 
+    text-align: left;
+    padding: 10px 0;
+}
+
+.text h3{
+    padding: 14px 0;
+    color: #b321b3;
+}
+
+img {
+    width: 100%;
+}
+
+.img{
+    width: 70%;
+}
+
+.products{
+    padding: 100px 30px;
+    text-align: center;
+}
+   
+.service-items {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: 1fr;
+    grid-column-gap: 50px;
+    grid-row-gap: 0px;
+    }
+
+    .services {
+        padding:80px 30px  ;
+        margin: auto;
+        text-align: center;
+
+    }
+
+    .services h2{
+        padding-bottom: 30px;
+    }
+    
